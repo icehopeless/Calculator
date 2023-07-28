@@ -1,0 +1,111 @@
+*{
+    margin: none;
+    padding: none;
+}
+
+body{
+    background-image: linear-gradient(to left, rgb(56, 55, 55), rgb(0, 0, 0));
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+div.Calculator{
+    position: absolute;
+    background-color: rgb(20, 19, 19);
+    border-radius: 7px;
+    width: 20%;
+    height: 50%;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px black;
+      
+}
+
+.buttons{
+    position: relative;
+    background-color: black;
+    color: white;
+    border: 1px black;
+    font-size: 25px;
+    text-align: center;
+    width: 60px;
+    height: 50px;
+    cursor: pointer;
+    align-items: center;
+    top: 20px;
+    left: 27px;
+}
+
+div.Calculator > #zero{
+    position: relative;
+    width: 130px;
+    top:12px;
+}
+
+div.Calculator > #point{
+    position:relative;
+    left: 12px;
+    width: 70px;
+    top:12px;
+}
+
+div.Calculator > #result{
+    position:absolute;
+    height: 100px;
+    left: 220px;
+    top:270px;
+    background-color: rgb(114, 46, 177);
+    
+}
+
+div.Calculator > #history{
+    position: relative;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    left: -173px;
+    top:-225px;
+    filter: invert(100%)
+    
+}
+
+div.Calculator > #scientific{
+    position: relative;
+    background-color: transparent;
+    width: 32px;
+    height: 32px;
+    left: -150px;
+    top:-229px;
+    filter: invert(100%)
+
+}
+
+
+
+
+.displaytext{
+    position: relative;
+    display:flex;
+    width: 70%;
+    height: 50px;
+    top: 18px;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+div.Calculator > #ac{
+    position: relative;
+    width: 70px;
+    top: -32px;
+    left: 232px;
+    background-color: rgb(124, 40, 40);
+    
+}

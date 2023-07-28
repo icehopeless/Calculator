@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Calculator">
+       <input id = "display" type = "text" name = "displayte" class = "displaytext" disabled>
+       <input id="ac" type="button" class ="buttons" value="AC" onclick="clean()"><br>
+    
+    
+        <input id ="delet" type="button" class ="buttons" value="DEL" onclick="del(document.querySelector('.displaytext').value)">
+        <input type="button" class ="buttons" value="/" onclick="displaychar('/')">
+        <input type="button" class ="buttons" value="*" onclick="displaychar('*')">
+        <input type="button" class ="buttons" value="%" onclick="displaychar('%')"><br>
+
+        <input type="button" class ="buttons" value="7" onclick="displaychar('7')">
+        <input type="button" class ="buttons" value="8" onclick="displaychar('8')">
+        <input type="button" class ="buttons" value="9" onclick="displaychar('9')">
+        <input type="button" class ="buttons" value="-" onclick="displaychar('-')"><br>
+
+        <input type="button" class ="buttons" value="4" onclick="displaychar('4')">
+        <input type="button" class ="buttons" value="5" onclick="displaychar('5')">
+        <input type="button" class ="buttons" value="6" onclick="displaychar('6')">
+        <input type="button" class ="buttons" value="+" onclick="displaychar('+')"><br>
+
+        <input type="button" class ="buttons" value="1" onclick="displaychar('1')">
+        <input type="button" class ="buttons" value="2" onclick="displaychar('2')">
+        <input type="button" class ="buttons" value="3" onclick="displaychar('3')">
+        <input id="result" type="button" class ="buttons" value="=" onclick="result(document.querySelector('.displaytext').value)"><br>
+
+        <input id="zero" type="button" class ="buttons" value="0" onclick="displaychar('0')">
+        <input id="point" type="button" class ="buttons" value="." onclick="displaychar('.')">
+
+        <img class="buttons" id="history" src="assets/history.png"  alt="history" onclick="history()">   
+        <img class="buttons" id="scientific" src="assets/becker.png"  alt="scientific" onclick="scientific()" >
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
