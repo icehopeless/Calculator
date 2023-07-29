@@ -241,13 +241,15 @@ div.Calculator > #result{
 }
 }
 
-/*@media screen and (max-height: 628px){
+
+@media screen and (max-width: 100px){
+    @media screen and (max-width: 100px){
     div.Calculator{
     position: absolute;
     background-color: rgb(20, 19, 19);
     border-radius: 7px;
-    width: %;
-    height: 50%;
+    width: 65%;
+    height: 78%;
     top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
@@ -265,31 +267,9 @@ div.Calculator > #ac{
 div.Calculator > #result{
     position:absolute;
     height: 100px;
-    left: 213px;
+    left: 220px;
     top:268px;
     background-color: rgb(114, 46, 177);
 }
-
-.buttons{
-    position: relative;
-    background-color: black;
-    color: white;
-    border: 1px black;
-    font-size: 25px;
-    text-align: center;
-    width: 60px;
-    height: 50px;
-    cursor: pointer;
-    align-items: center;
-    top: 20px;
-    left: 20px;
+    }
 }
-
-div.Calculator > #point{
-    position:relative;
-    left: 5px;
-    width: 70px;
-    top:12px;
-}
-}
-*/
