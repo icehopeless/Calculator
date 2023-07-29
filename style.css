@@ -242,8 +242,8 @@ div.Calculator > #result{
 }
 
 
-@media screen and (max-width: 100px){
-    @media screen and (max-width: 100px){
+@media screen and (max-width: 50px){
+    @media screen and (max-width: 50px){
     div.Calculator{
     position: absolute;
     background-color: rgb(20, 19, 19);
