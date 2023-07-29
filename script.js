@@ -1,3 +1,13 @@
+//mudando cor 
+var a = document.querySelector('.buttons');
+    a.addEventListener("mouseenter", () => {
+        a.style.color
+    }); 
+
+a.addEventListener("mouseout", () =>{
+    a.style.color = "white";
+});
+
 //adiciona numeros ao display de resultado
 function displaychar(num){
     if(document.querySelector('.displaytext').value == "Error Syn."
