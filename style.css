@@ -109,3 +109,109 @@ div.Calculator > #ac{
     background-color: rgb(124, 40, 40);
     
 }
+/*responsive formatation layout for mobile (768)*/
+@media screen and (max-width: 768px){
+    div.Calculator{
+    position: absolute;
+    background-color: rgb(20, 19, 19);
+    border-radius: 7px;
+    width: 65%;
+    height: 65%;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px black;
+      
+}
+
+div.Calculator > #ac{
+    position: relative;
+    width: 70px;
+    top: -32px;
+    left: 240px;
+    background-color: rgb(124, 40, 40);
+    
+}
+
+div.Calculator > #result{
+    position:absolute;
+    height: 100px;
+    left: 220px;
+    top:268px;
+    background-color: rgb(114, 46, 177);
+    
+}
+
+}
+
+/*responsive formatation layout for mid split(~775)*/
+@media screen and (max-width: 775px){
+    div.Calculator{
+    position: absolute;
+    background-color: rgb(20, 19, 19);
+    border-radius: 7px;
+    width: 42%;
+    height: 50%;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px black;
+      
+}
+
+div.Calculator > #ac{
+    position: relative;
+    width: 70px;
+    top: -32px;
+    left: 240px;
+    background-color: rgb(124, 40, 40);
+    
+}
+
+div.Calculator > #result{
+    position:absolute;
+    height: 100px;
+    left: 220px;
+    top:268px;
+    background-color: rgb(114, 46, 177);
+    
+}
+
+}
+
+
+/*responsive formatation layout for small (800 )*/
+@media screen and (max-width: 800px){
+    div.Calculator{
+    position: absolute;
+    background-color: rgb(20, 19, 19);
+    border-radius: 7px;
+    width: 40%;
+    height: 70%;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px black;
+      
+}
+
+div.Calculator > #ac{
+    position: relative;
+    width: 70px;
+    top: -32px;
+    left: 230px;
+    background-color: rgb(124, 40, 40);
+    
+}
+
+div.Calculator > #result{
+    position:absolute;
+    height: 100px;
+    left: 220px;
+    top:268px;
+    background-color: rgb(114, 46, 177);
+    
+}
+
+}
+
