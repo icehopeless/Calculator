@@ -53,7 +53,6 @@ div.Calculator > #point{
 
 div.Calculator > #result{
     position:absolute;
-    text-align: center;
     display: flex;
     height: 26%;
     left: 72%;
@@ -125,15 +124,16 @@ div.Calculator > #ac{
 
 div.Calculator > #ac{
     left: 74.5%;
+
     
 }
 
 div.Calculator > #result{
-    left: 72.8%;
+    left: 72%;
 }
 
 div.Calculator > #point{
-    left: 49.5%;
+    left: 48.8%;
 
 }
 }
